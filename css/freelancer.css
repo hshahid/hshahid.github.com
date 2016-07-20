@@ -94,16 +94,20 @@ hr.star-primary:after {
 
 header {
     text-align: center;
+    positon: fixed;
     color: #fff;
-    background-image: url(../img/festival.jpg);
+    min-height 100%;
+    height: 2100px;
+    background-position: center bottom;
+    background-image: url(../img/download.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-    height:660px;
+    background-attachment: fixed;
      -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+
    
     
 }
@@ -112,6 +116,7 @@ header .container {
     padding-top: 100px;
     padding-bottom: 100px;
     margin-top: 40px;
+    position: fixed;
 }
 
 header img {
@@ -207,17 +212,18 @@ header .intro-text .skills {
 section {
     padding: 100px 0;
     /*background-color:#4796aa;*/
-    background-color:#fff;
+    background-color:#1a030d;
    
 }
 
 section h2 {
     margin-top: -30px;
     font-size: 3em;
+    position: fixed;
 }
 
 section.success {
-    color:  #343643;
+    color:  #fff;
 }
 
 @media(max-width:767px) {
@@ -403,7 +409,7 @@ form .row:first-child .floating-label-form-group {
 
 .overlay{
     background:transparent url(images/overlay.png) repeat top left;
-    position:fixed;
+    position:relative;
     top:0px;
     bottom:0px;
     left:0px;
@@ -470,6 +476,7 @@ input::-webkit-input-placeholder {
 
 footer {
     color: #fff;
+    position: fixed;
     
 }
 
@@ -489,6 +496,8 @@ footer .footer-col {
 footer .footer-below {
     padding: 25px 0;
     background-color: #000;
+    width: 1300px;
+    height: 100%;
 }
 
 .btn-social {
